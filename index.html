@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>facbook time line</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+			crossorigin="anonymous"
+		/>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+			integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<!-- fb topbar start -->
+		<div class="fb-header px-3 shadow-sm">
+			<div class="row">
+				<div class="col-md-1"></div>
+				<div class="col-md-2">
+					<div class="fb-band">
+						<a href="#"
+							><svg
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 24 24"
+								data-supported-dps="24x24"
+								fill="currentColor"
+								class="mercado-match"
+								width="24"
+								height="24"
+								focusable="false"
+							>
+								<path
+									d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"
+								></path></svg
+						></a>
+						<div class="search">
+							<input type="search" placeholder="Search Facebook" />
+							<button><i class="fa fa-search" aria-hidden="true"></i></button>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="fb-menu">
+						<ul>
+							<li class="active">
+								<a href=""
+									><svg
+										xmlns="http://www.w3.org/2000/svg"
+										viewBox="0 0 24 24"
+										data-supported-dps="24x24"
+										fill="currentColor"
+										class="mercado-match"
+										width="24"
+										height="24"
+										focusable="false"
+									>
+										<path
+											d="M23 9v2h-2v7a3 3 0 01-3 3h-4v-6h-4v6H6a3 3 0 01-3-3v-7H1V9l11-7 5 3.18V2h3v5.09z"
+										></path>
+									</svg>
+									<span>Home</span>
+								</a>
+							</li>
+							<li>
+								<a href=""
+									><svg
+										xmlns="http://www.w3.org/2000/svg"
+										viewBox="0 0 24 24"
+										data-supported-dps="24x24"
+										fill="currentColor"
+										class="mercado-match"
+										width="24"
+										height="24"
+										focusable="false"
+									>
+										<path
+											d="M12 16v6H3v-6a3 3 0 013-3h3a3 3 0 013 3zm5.5-3A3.5 3.5 0 1014 9.5a3.5 3.5 0 003.5 3.5zm1 2h-2a2.5 2.5 0 00-2.5 2.5V22h7v-4.5a2.5 2.5 0 00-2.5-2.5zM7.5 2A4.5 4.5 0 1012 6.5 4.49 4.49 0 007.5 2z"
+										></path></svg
+									><span>My Network</span></a
+								>
+							</li>
+							<li>
+								<a href=""
+									><svg
+										xmlns="http://www.w3.org/2000/svg"
+										viewBox="0 0 24 24"
+										data-supported-dps="24x24"
+										fill="currentColor"
+										class="mercado-match"
+										width="24"
+										height="24"
+										focusable="false"
+									>
+										<path
+											d="M17 6V5a3 3 0 00-3-3h-4a3 3 0 00-3 3v1H2v4a3 3 0 003 3h14a3 3 0 003-3V6zM9 5a1 1 0 011-1h4a1 1 0 011 1v1H9zm10 9a4 4 0 003-1.38V17a3 3 0 01-3 3H5a3 3 0 01-3-3v-4.38A4 4 0 005 14z"
+										></path>
+									</svg>
+									<span>Jobs</span></a
+								>
+							</li>
+
+							<li>
+								<a href=""
+									><svg
+										xmlns="http://www.w3.org/2000/svg"
+										viewBox="0 0 24 24"
+										data-supported-dps="24x24"
+										fill="currentColor"
+										class="mercado-match"
+										width="24"
+										height="24"
+										focusable="false"
+									>
+										<path
+											d="M16 4H8a7 7 0 000 14h4v4l8.16-5.39A6.78 6.78 0 0023 11a7 7 0 00-7-7zm-8 8.25A1.25 1.25 0 119.25 11 1.25 1.25 0 018 12.25zm4 0A1.25 1.25 0 1113.25 11 1.25 1.25 0 0112 12.25zm4 0A1.25 1.25 0 1117.25 11 1.25 1.25 0 0116 12.25z"
+										></path></svg
+									><span>Messaging</span></a
+								>
+							</li>
+							<li>
+								<a href=""
+									><svg
+										xmlns="http://www.w3.org/2000/svg"
+										viewBox="0 0 24 24"
+										data-supported-dps="24x24"
+										fill="currentColor"
+										class="mercado-match"
+										width="24"
+										height="24"
+										focusable="false"
+									>
+										<path
+											d="M22 19h-8.28a2 2 0 11-3.44 0H2v-1a4.52 4.52 0 011.17-2.83l1-1.17h15.7l1 1.17A4.42 4.42 0 0122 18zM18.21 7.44A6.27 6.27 0 0012 2a6.27 6.27 0 00-6.21 5.44L5 13h14z"
+										></path></svg
+									><span>Notifications</span></a
+								>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+				<div class="col-md-2">
+					<div class="fb-auth">
+						<ul>
+							<li>
+								<a href="#"><img src="image/shakil.jfif" alt="" /></a>
+							</li>
+							<li>
+								<a href="#"
+									><svg
+										xmlns="http://www.w3.org/2000/svg"
+										viewBox="0 0 24 24"
+										data-supported-dps="24x24"
+										fill="currentColor"
+										class="mercado-match"
+										width="24"
+										height="24"
+										focusable="false"
+									>
+										<path
+											d="M3 3h4v4H3zm7 4h4V3h-4zm7-4v4h4V3zM3 14h4v-4H3zm7 0h4v-4h-4zm7 0h4v-4h-4zM3 21h4v-4H3zm7 0h4v-4h-4zm7 0h4v-4h-4z"
+										></path></svg
+								></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-1"></div>
+			</div>
+		</div>
+		<!-- fb topbar end -->
+		<div class="facbook-body px-3">
+			<div class="row">
+				<div class="col-md-1"></div>
+				<div class="col-md-2" style="background-color: #ffffff">
+					<div class="user-info">
+						<div class="profile-cover">
+							<img src="image/dewan.jpg" alt="" />
+						</div>
+						<div class="profile">
+							<img src="image/shakil.jfif" class="w-100" alt="" />
+						</div>
+					</div>
+					<ul>
+						<li class="profile-name"><a href="">dewan shakil</a></li>
+					</ul>
+					<span
+						>Student at Sherpur Institute of Science and Technology - SIST</span
+					>
+				</div>
+				<div class="col-md-5">
+					<!-- story modal ariya -->
+					<div class="post-modal-area">
+						<div class="card my-0 shadow-lg rounded-6">
+							<div class="card-body">
+								<div class="modal-button">
+									<img src="image/shakil.jfif" alt="" />
+									<button data-bs-toggle="modal" data-bs-target="#add-Modal">
+										Start post
+									</button>
+								</div>
+								<hr />
+							</div>
+
+							<div class="icon-aria">
+								<div class="icon-box">
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										viewBox="0 0 24 24"
+										data-supported-dps="24x24"
+										fill="currentColor"
+										class="mercado-match"
+										width="24"
+										height="24"
+										focusable="false"
+									>
+										<path
+											d="M19 4H5a3 3 0 00-3 3v10a3 3 0 003 3h14a3 3 0 003-3V7a3 3 0 00-3-3zm1 13a1 1 0 01-.29.71L16 14l-2 2-6-6-4 4V7a1 1 0 011-1h14a1 1 0 011 1zm-2-7a2 2 0 11-2-2 2 2 0 012 2z"
+										></path>
+									</svg>
+									<span>Photo</span>
+								</div>
+								<div class="icon-box">
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										viewBox="0 0 24 24"
+										data-supported-dps="24x24"
+										fill="currentColor"
+										class="mercado-match"
+										width="24"
+										height="24"
+										focusable="false"
+									>
+										<path
+											d="M19 4H5a3 3 0 00-3 3v10a3 3 0 003 3h14a3 3 0 003-3V7a3 3 0 00-3-3zm-9 12V8l6 4z"
+										></path>
+									</svg>
+									<span>video</span>
+								</div>
+								<div class="icon-box">
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										viewBox="0 0 24 24"
+										data-supported-dps="24x24"
+										fill="currentColor"
+										class="mercado-match"
+										width="24"
+										height="24"
+										focusable="false"
+									>
+										<path
+											d="M3 3v15a3 3 0 003 3h12a3 3 0 003-3V3zm13 1.75A1.25 1.25 0 1114.75 6 1.25 1.25 0 0116 4.75zm-8 0A1.25 1.25 0 116.75 6 1.25 1.25 0 018 4.75zM19 18a1 1 0 01-1 1H6a1 1 0 01-1-1V9h14zm-5.9-3a1 1 0 00-1-1H12a3.12 3.12 0 00-1 .2l-1-.2v-3h3.9v1H11v1.15a3.7 3.7 0 011.05-.15 1.89 1.89 0 012 1.78V15a1.92 1.92 0 01-1.84 2H12a1.88 1.88 0 01-2-1.75 1 1 0 010-.25h1a.89.89 0 001 1h.1a.94.94 0 001-.88z"
+										></path>
+									</svg>
+									<span>Event</span>
+								</div>
+								<div class="icon-box">
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										viewBox="0 0 24 24"
+										data-supported-dps="24x24"
+										fill="currentColor"
+										class="mercado-match"
+										width="24"
+										height="24"
+										focusable="false"
+									>
+										<path
+											d="M21 3v2H3V3zm-6 6h6V7h-6zm0 4h6v-2h-6zm0 4h6v-2h-6zM3 21h18v-2H3zM13 7H3v10h10z"
+										></path>
+									</svg>
+									<span>Write article</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- post-line-aria -->
+					<div class="all-post"></div>
+				</div>
+
+				<div class="col-md-3" style="background-color: #ffffff">
+					<div class="contact-aria">
+						<div class="contact-icon-ariea">
+							<span>Add to your feed</span>
+							<svg
+								xmlns="http://www.w3.org/2000/svg"
+								viewBox="0 0 16 16"
+								data-supported-dps="16x16"
+								fill="currentColor"
+								class="mercado-match"
+								width="16"
+								height="16"
+								focusable="false"
+							>
+								<path
+									d="M12 2H4a2 2 0 00-2 2v8a2 2 0 002 2h8a2 2 0 002-2V4a2 2 0 00-2-2zm-3 8v2H7.5A1.5 1.5 0 016 10.5a1.56 1.56 0 01.1-.5l1.08-3h2.13l-1.09 3zm0-3.75A1.25 1.25 0 1110.25 5 1.25 1.25 0 019 6.25z"
+								></path>
+							</svg>
+						</div>
+
+						<div class="sidebar-box my-5">
+							<img src="image/rohim.jfif" alt="" />
+							<h2>rohim mia</h2>
+							<span
+								>♛69K+ Global Followers Achiever | HR Professional | Leader |
+								Managing Partner | Personal Branding Entrepreneur | Active
+								Influencer | Network Builder & Collaborator | Social Media
+								Marketing Manager | WordPress SEO</span
+							>
+							<div class="follow-butto">
+								<button>
+									<svg
+										xmlns="http://www.w3.org/2000/svg"
+										viewBox="0 0 16 16"
+										data-supported-dps="16x16"
+										fill="currentColor"
+										class="mercado-match"
+										width="16"
+										height="16"
+										focusable="false"
+									>
+										<path d="M14 9H9v5H7V9H2V7h5V2h2v5h5z"></path></svg
+									><a href="">Follow me</a>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-1"></div>
+			</div>
+		</div>
+		<!-- in body part end -->
+		<!-- Modal  -->
+		<div class="modal fade" id="add-Modal">
+			<div class="modal-dialog modal-dialog-centered">
+				<div class="modal-content modal-body-close">
+					<div class="modal-body">
+						<div class="modal-topbar">
+							<h3>Create post</h3>
+							<div class="iconbox">
+								<button
+									data-bs-dismiss="alert"
+									class="btn-close close-modal"
+								></button>
+							</div>
+						</div>
+
+						<hr />
+						<div class="msg"></div>
+						<img
+							class="loading"
+							src="https://cdn.dribbble.com/users/3337757/screenshots/6825268/076_-loading_animated_dribbble_copy.gif"
+							alt=""
+						/>
+						<form id="add-modal" action="">
+							<div class="mb-3">
+								<label for="authname" class="form-label">Auth Name</label>
+								<input
+									name="aname"
+									type="type"
+									class="form-control"
+									id="authname"
+								/>
+							</div>
+							<div class="mb-3">
+								<label for="autoPhoto" class="form-label">Auth photo</label>
+								<input
+									name="aphoto"
+									type="text"
+									class="form-control"
+									id="autoPhoto"
+								/>
+							</div>
+							<div class="mb-3">
+								<label for="postcontect" class="form-label">Post contect</label>
+								<textarea name="postcontect" class="form-control"></textarea>
+							</div>
+							<div class="mb-3">
+								<label for="photo" class="form-label">Post photo</label>
+								<input
+									name="pphoto"
+									type="text"
+									class="form-control"
+									id="photo"
+								/>
+							</div>
+
+							<button type="submit" class="btn btn-primary w-100">
+								Post now
+							</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<script src="function.js"></script>
+		<script src="app.js"></script>
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>
